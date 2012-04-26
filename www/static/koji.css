@@ -1,6 +1,6 @@
 /* 
   Koji styling
-  Copyright (c) 2007,2008, 2009 Red Hat, Inc.
+  Copyright (c) 2007,2008, 2009, 2012 Red Hat, Inc.
 
   Authors:
     Mike Bonnet <mikeb@redhat.com>
@@ -207,7 +207,7 @@ td
 }
 
 th, td {
-    line-height:24px;
+    line-height:19px;
 }
 
 td.building {
