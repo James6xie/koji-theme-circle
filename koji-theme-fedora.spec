@@ -6,7 +6,7 @@
 %define release %{baserelease}
 %endif
 Name: koji-theme-fedora
-Version: 2.0
+Version: 2.1
 Release: %{release}%{?dist}
 License: GPLv2
 Summary: Fedora koji theme
@@ -39,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Jan 22 2014 Dennis Gilmore <dennis@ausil.us> - 2.1-1
+- update httpd config for apache 2.4
+
 * Fri Feb 03 2012 Dennis Gilmore <dennis@ausil.us> 2.0-1
 - pull in theme from ryan
 
