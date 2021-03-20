@@ -22,7 +22,7 @@ body {
 }
 
 a, a:visited, a:hover {
-    color: #0066CC;
+    color: #0ABF61;
     text-decoration: none;
 }
 
@@ -94,7 +94,9 @@ height:87px
 #kojiLogo {
     /* Used only for the koji logo icon */
     display:inline-block;
-padding-top:8px;
+    padding-top:8px;
+    width: 131px;
+    height: 62px;
 
 }
 
